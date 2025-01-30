@@ -1,0 +1,20 @@
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+  background-color: rgb(59, 54, 54);
+  color: aliceblue;
+  height: 2em;
+  width: 2.5em;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 6px;
+}
+
+.btn-wrapper:hover {
+  background-color: rgb(35, 32, 38);
+  color: rgb(59, 54, 54);
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(241, 228, 228);
+  color: rgb(13, 1, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 32, 38);
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+.display input{
+text-align: right;
+flex: 1;
+font-size: 22px;
+padding:  40px;
+margin: 0px 10px 10px 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(48, 44, 51);
+border-radius: 10px;
+color: thistle;
+}
+
